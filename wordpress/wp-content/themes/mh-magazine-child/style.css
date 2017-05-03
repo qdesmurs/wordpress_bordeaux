@@ -78,14 +78,28 @@ a{
 }
 
 #main-content1 article {
-    width: 33%;
+    width: 30.6%;
     padding-right: 1em;
 }
 
 #main-content1 article p:nth-child(2) {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin-left: 0.6em;
+    margin-bottom: 0;
+    font-family: serif;
+}
+
+#main-content1 article p:nth-child(3) {
+    font-size: 0.9em;
+    margin-left: 1em;
+    font-family: serif;
 }
 
 .entry-content {
-    background-color: lightgrey;
+    background-color: #ebebeb;
+}
+
+.entry-content img {
+    width: 100%;
+    border: 1px solid lightgrey;
 }
