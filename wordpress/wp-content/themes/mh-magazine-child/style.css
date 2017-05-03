@@ -11,3 +11,60 @@
  Tags:         test
  Text Domain:  test-theme
 */
+
+.mh-header-title {
+    font-size: 7em;
+    font-family: serif;
+    color: #d82142;
+    font-weight: lighter;
+}
+
+.mh-header-text, .submenu,  .mh-site-logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aheader {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+}
+
+.aheader .search-form {
+    margin-top: 0;
+}
+
+.search-form .search-field {
+    margin: 3em 0;
+    width: 100%;
+}
+
+.submenu {
+    font-size: 10px;
+}
+
+.submenu a {
+    color:red;
+}
+
+a{
+    color: rgb(117, 114, 117);
+}
+
+.mh-main-nav li {
+    font-size: 17px;
+}
+
+.mh-main-nav {
+    border-bottom: none;
+    text-transform: uppercase;
+}
+
+#main-content1 {
+    width: 60%;
+    display: flex;
+}
+
+#main-content1 article {
+    width: 33%;
+}
