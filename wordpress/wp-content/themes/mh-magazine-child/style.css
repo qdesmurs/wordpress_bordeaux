@@ -44,7 +44,7 @@
 }
 
 .submenu a {
-    color:red;
+    color:#d82142;
 }
 
 a{
@@ -60,11 +60,32 @@ a{
     text-transform: uppercase;
 }
 
+.imgg img {
+    width: 96%;
+}
+
+#main-content {
+    border-right: 1px solid lightgrey;
+}
+
+.mh-sidebar {
+    width: 30%;
+}
+
 #main-content1 {
-    width: 60%;
+    width: 100%;
     display: flex;
 }
 
 #main-content1 article {
     width: 33%;
+    padding-right: 1em;
+}
+
+#main-content1 article p:nth-child(2) {
+    font-size: 1.3em;
+}
+
+.entry-content {
+    background-color: lightgrey;
 }
